@@ -13,7 +13,7 @@ import React, { useState, useEffect, createContext, useContext } from "react";
    usando os dados estáticos abaixo (mesma UX, sem persistência).
 ───────────────────────────────────────────────────────────── */
 
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://soulspace-api.onrender.com/api";
 
 // ── Fallback offline (usado se a API não responder) ─────────
 const FALLBACK_MEDITATIONS = [
